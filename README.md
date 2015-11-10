@@ -16,6 +16,6 @@
   npm install
   npm start
 ```
-  visit http://localhost:8080
+  visit [http://localhost:8080](http://localhost:8080)
 
   add components to `app/components` and watch your app update in the browser
