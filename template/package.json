@@ -1,0 +1,38 @@
+{
+  "name": "{{package.name}}",
+  "version": "1.0.0",
+  "description": "{{package.description}}",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node ./node_modules/.bin/webpack-dev-server"
+  },
+  "author": "{{user.name}} <{{user.email}}>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.0.15",
+    "babel-cli": "^6.1.2",
+    "babel-loader": "^6.0.1",
+    "babel-plugin-react-transform": "^1.1.1",
+    "babel-preset-es2015": "^6.1.2",
+    "babel-preset-react": "^6.1.2",
+    "babel-preset-stage-0": "^6.1.2",
+    "css-loader": "^0.22.0",
+    "html-webpack-plugin": "^2.0.4",
+    "react-transform-hmr": "^1.0.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.3",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  },
+  "bugs": {
+    "url": "https://github.com/{{user.github}}/{{package.name}}/issues"
+  },
+  "homepage": "https://github.com/{{user.github}}/{{package.name}}",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/{{user.github}}/{{package.name}}.git"
+  }
+}
