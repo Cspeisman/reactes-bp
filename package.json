@@ -1,7 +1,7 @@
 {
   "name": "reactes-bp",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "scaffold command to build a React es6 boilerplate",
   "main": "build/cli.js",
   "bin": {
     "reactes-bp": "build/cli.js"
@@ -9,7 +9,7 @@
   "scripts": {
     "build": "babel lib --out-dir build"
   },
-  "author": "",
+  "author": "Corey Speisman <cspeisman@gmail.com> (http://github.com/cspeisman)",
   "license": "ISC",
   "devDependencies": {
     "babel": "^6.0.15",
@@ -17,16 +17,31 @@
     "babel-core": "^6.1.2",
     "babel-loader": "^6.1.0",
     "babel-preset-es2015": "^6.1.2",
-    "glob": "^5.0.15",
-    "ncp": "^2.0.0",
     "webpack": "^1.12.3",
-    "yargs": "^3.29.0"
+    "babel-preset-es2015": "^6.1.2"
   },
   "dependencies": {
+    "glob": "^5.0.15",
+    "ncp": "^2.0.0",
     "cli-color": "^1.1.0",
     "handlebars": "^4.0.4",
     "mkdirp": "^0.5.1",
     "nomnom": "^1.8.1",
     "prompt": "^0.2.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cspeisman/reactes-bp.git"
+  },
+  "keywords": [
+    "es6",
+    "babel",
+    "react",
+    "boilerplate",
+    "scaffold"
+  ],
+  "bugs": {
+    "url": "https://github.com/Cspeisman/reactes-bp/issues"
+  },
+  "homepage": "https://github.com/Cspeisman/reactes-bp#readme"
 }
