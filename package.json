@@ -1,6 +1,6 @@
 {
   "name": "reactes-bp",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "scaffold command to build a React es6 boilerplate",
   "main": "build/cli.js",
   "bin": {
