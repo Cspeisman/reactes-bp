@@ -1,6 +1,6 @@
 {
   "name": "reactes-bp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "scaffold command to build a React es6 boilerplate",
   "main": "build/cli.js",
   "bin": {
@@ -12,20 +12,21 @@
   "author": "Corey Speisman <cspeisman@gmail.com> (http://github.com/cspeisman)",
   "license": "ISC",
   "devDependencies": {
-    "babel": "^6.0.15",
     "babel-cli": "^6.1.2",
     "babel-core": "^6.1.2",
     "babel-loader": "^6.1.0",
+    "babel-plugin-transform-object-assign": "^6.0.14",
     "babel-preset-es2015": "^6.1.2",
-    "webpack": "^1.12.3",
-    "babel-preset-es2015": "^6.1.2"
+    "babel-preset-stage-0": "^6.1.2",
+    "webpack": "^1.12.3"
   },
   "dependencies": {
-    "glob": "^5.0.15",
-    "ncp": "^2.0.0",
+    "babel": "^6.0.15",
     "cli-color": "^1.1.0",
+    "glob": "^5.0.15",
     "handlebars": "^4.0.4",
     "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0",
     "nomnom": "^1.8.1",
     "prompt": "^0.2.14"
   },
